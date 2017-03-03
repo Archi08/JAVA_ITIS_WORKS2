@@ -10,7 +10,7 @@ class Program {
 		a = scanner.nextInt();
 
 		while (a != -1) {
-			if (a % 2 != 0) {
+			if (a % 2 == 0) {
 				sum = sum + a;
 			}
 			a = scanner.nextInt();
