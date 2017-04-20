@@ -8,13 +8,21 @@ public class Car {
     private String color;
     private int mileage;
 
+
+    public Car (int id, String model, String color, int mileage) {
+
+        this.id = id;
+        this.model = model;
+        this.color = color;
+        this.mileage = mileage;
+    }
+
     public Car (String model, String color, int mileage) {
 
         this.model = model;
         this.color = color;
         this.mileage = mileage;
     }
-
 
     public int getId() {
         return id;
@@ -53,5 +61,16 @@ public class Car {
                this.model + " " +
                this.color + " " +
                this.mileage;
+    }
+
+    public boolean equals(Object object) {
+        if (object instanceof  Car) {
+            Car that = (Car)object;
+
+            return this.id == that.id
+                    && this.model.equals(that.model)
+                    && this.color.equals(that.color)
+                    && this.mileage == that.mileage;
+        } return false;
     }
 }

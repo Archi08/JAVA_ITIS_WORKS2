@@ -2,17 +2,29 @@ package generators;
 
 
 import java.io.*;
+import java.util.Properties;
 
-public class IdGenerator {
+public class SingletonIdGenerator {
+
+    private static SingletonIdGenerator instance;
+
+    static {
+        Properties properties = new Properties();
+        try {
+            properties.load(new FileInputStream("resources\\app.properties"));
+            String fileName = properties.getProperty("id.generator.file");
+            instance = new SingletonIdGenerator(fileName);
+        } catch (IOException e) {
+            System.err.println("IO Exception");
+        }
+    }
 
     private String idFileName;
     private  int lastGenerateId;
 
-    public IdGenerator (String idFileName) {
-
+    private  SingletonIdGenerator(String idFileName) {
         this.idFileName = idFileName;
-
-        try{
+        try {
             BufferedReader bufferedReader = new BufferedReader
                     (new FileReader(idFileName));
 
@@ -23,6 +35,9 @@ public class IdGenerator {
         }   catch (IOException e) {
             System.err.println("IO Exception");
         }
+    }
+    public static SingletonIdGenerator getGenerator() {
+        return instance;
     }
 
     public int generateId() {
@@ -38,5 +53,4 @@ public class IdGenerator {
         }
         return newId;
     }
-
 }

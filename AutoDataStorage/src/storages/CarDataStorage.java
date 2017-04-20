@@ -3,25 +3,27 @@ package storages;
 
 import Auto.Car;
 
-import generators.IdGenerator;
+import exception.CarNotFoundException;
+
+import generators.SingletonIdGenerator;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CarDataStorages {
+public class CarDataStorage {
 
     private String fileName;
-    private IdGenerator idGenerator;
 
-    public CarDataStorages(String fileName, IdGenerator idGenerator) {
+
+    public CarDataStorage(String fileName) {
         this.fileName = fileName;
-        this.idGenerator = idGenerator;
+
     }
 
     public int save(Car car) {
         try{
-            car.setId(idGenerator.generateId());
-
+            car.setId(SingletonIdGenerator.getGenerator().generateId());
             BufferedWriter writer = new BufferedWriter
                     (new FileWriter(fileName, true));
             String carDataAsString = car.toString();
@@ -67,7 +69,7 @@ public class CarDataStorages {
         } catch (IOException e) {
             System.err.println("IO Exception");
         }
-        return null;
+        throw new CarNotFoundException();
     }
 
     public List<Car> findAll() {

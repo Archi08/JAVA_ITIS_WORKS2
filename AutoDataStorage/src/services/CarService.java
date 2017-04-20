@@ -2,17 +2,19 @@ package services;
 
 
 import Auto.Car;
-import storages.CarDataStorages;
+import storages.CarDataStorage;
 
 public class CarService {
 
-    private CarDataStorages carDataStorages;
+    private CarDataStorage carDataStorage;
 
-    public CarService(CarDataStorages carDataStorages) {
-        this.carDataStorages = carDataStorages;
+    public CarService(CarDataStorage carDataStorage) {
+        this.carDataStorage = carDataStorage;
     }
 
     public void register(Car car) {
-        carDataStorages.save(car);
+        carDataStorage.save(car);
     }
+
+
 }
