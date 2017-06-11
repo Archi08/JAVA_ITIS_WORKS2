@@ -1,21 +1,23 @@
 package ru.itis.main.models;
 
-public class User {
+import java.util.Objects;
+
+public class User implements Model {
     private int id;
     private String login;
     private String password;
     private String name;
     private int age;
 
-    public User(String login, String password, String name, int age) {
+    public User(int id, String login, String password, String name, int age) {
+        this.id = id;
         this.login = login;
         this.password = password;
         this.name = name;
         this.age = age;
     }
 
-    public User(int id, String login, String password, String name, int age) {
-        this.id = id;
+    public User(String login, String password, String name, int age) {
         this.login = login;
         this.password = password;
         this.name = name;
@@ -69,14 +71,19 @@ public class User {
                 this.name + " " +
                 this.age;
     }
+
     public boolean equals(Object object) {
         if (object instanceof User) {
-            User that =(User)object;
+            User that = (User)object;
             return this.id == that.id &&
                     this.age == that.age &&
                     this.name.equals(that.name) &&
                     this.login.equals(that.login) &&
                     this.password.equals(that.password);
         } return false;
+    }
+
+    public int hashCode() {
+        return Objects.hash(this.id, this.age, this.name, this.login, this.password);
     }
 }

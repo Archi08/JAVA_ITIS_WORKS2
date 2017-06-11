@@ -1,0 +1,13 @@
+itis\dao\BooksNamedJpaDaoImpl.class
+itis\dao\BaseDao.class
+itis\services\BookServiceImpl.class
+itis\services\BookService.class
+itis\config\AppInit.class
+itis\converter\Converter.class
+itis\controllers\BooksController.class
+itis\models\Book.class
+itis\models\Book$Builder.class
+itis\config\AppConfig.class
+itis\dao\BooksDao.class
+itis\controllers\api\BooksJsonController.class
+itis\dto\BookDto.class

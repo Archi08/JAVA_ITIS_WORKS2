@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_patterns" default="compile.module.patterns">
+  <dirname property="module.patterns.basedir" file="${ant.file.module_patterns}"/>
+  
+  <property name="module.jdk.home.patterns" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.patterns" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.patterns" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.patterns" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="patterns.output.dir" value="${module.patterns.basedir}/../../../../../../production/Patterns"/>
+  <property name="patterns.testoutput.dir" value="${module.patterns.basedir}/../../../../../../test/Patterns"/>
+  
+  <path id="patterns.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="patterns.module.production.classpath">
+    <path refid="${module.jdk.classpath.patterns}"/>
+  </path>
+  
+  <path id="patterns.runtime.production.module.classpath">
+    <pathelement location="${patterns.output.dir}"/>
+  </path>
+  
+  <path id="patterns.module.classpath">
+    <path refid="${module.jdk.classpath.patterns}"/>
+    <pathelement location="${patterns.output.dir}"/>
+  </path>
+  
+  <path id="patterns.runtime.module.classpath">
+    <pathelement location="${patterns.testoutput.dir}"/>
+    <pathelement location="${patterns.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.patterns">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.patterns">
+    <patternset refid="excluded.from.module.patterns"/>
+  </patternset>
+  
+  <path id="patterns.module.sourcepath">
+    <dirset dir="${module.patterns.basedir}/../../Patterns">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.patterns" depends="compile.module.patterns.production,compile.module.patterns.tests" description="Compile module Patterns"/>
+  
+  <target name="compile.module.patterns.production" depends="register.custom.compilers" description="Compile module Patterns; production classes">
+    <mkdir dir="${patterns.output.dir}"/>
+    <javac2 destdir="${patterns.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.patterns}/javac">
+      <compilerarg line="${compiler.args.patterns}"/>
+      <bootclasspath refid="patterns.module.bootclasspath"/>
+      <classpath refid="patterns.module.production.classpath"/>
+      <src refid="patterns.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.patterns"/>
+    </javac2>
+    
+    <copy todir="${patterns.output.dir}">
+      <fileset dir="${module.patterns.basedir}/../src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.patterns.tests" depends="register.custom.compilers,compile.module.patterns.production" description="compile module Patterns; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.patterns" description="cleanup module">
+    <delete dir="${patterns.output.dir}"/>
+    <delete dir="${patterns.testoutput.dir}"/>
+  </target>
+</project>

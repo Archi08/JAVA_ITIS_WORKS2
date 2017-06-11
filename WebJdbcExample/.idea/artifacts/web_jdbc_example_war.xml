@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web-jdbc-example:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="web-jdbc-example-0.1.war">
+      <element id="artifact" artifact-name="web-jdbc-example:war exploded" />
+    </root>
+  </artifact>
+</component>

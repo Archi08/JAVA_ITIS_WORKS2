@@ -1,0 +1,12 @@
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\config\AppInit.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\config\AppConfig.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\dao\BaseDao.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\dao\BooksDao.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\converter\Converter.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\controllers\BooksController.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\dao\BooksNamedJpaDaoImpl.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\controllers\api\BooksJsonController.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\dto\BookDto.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\models\Book.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\services\BookServiceImpl.java
+C:\Users\Артур\Desktop\BookData\src\main\java\itis\services\BookService.java
