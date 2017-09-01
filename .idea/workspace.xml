@@ -2,269 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb9dc6f-5eac-4d4c-8dd0-09134c806a5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/lists/ArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/lists/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/lists/List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/models/Contract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/models/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/src/ru/itis/test/ArrayListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/src/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/src/ru/itis/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/src/ru/itis/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/src/ru/itis/UsersDaoTextFileBasedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/src/ru/itis/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dao/users.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/.idea/DataStorage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/autos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/context/AppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/AutoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/AutoDaoFileBasedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/BaseCrudDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/UsersDaoFileBasedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/generators/SimpleIdGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/mappers/RowMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/models/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/models/Model.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/utils/FileDaoQueryTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/utils/FileDaoQueryTemplateImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/test/UsersDaoFileBasedImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/.idea/DataStorage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/autos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/id.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/resources/app.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/context/AppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/AutoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/BaseCrudDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/files/AutoDaoFileBasedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/files/UsersDaoFileBasedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/dao/jdbc/UsersDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/exception/AutoNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/exception/UserNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/generators/IdGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/generators/SimpleIdGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/mapper/RowMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/models/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/models/AutoBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/models/Model.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/utils/FileDaoQueryTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/src/ru/itis/main/utils/FileDaoQueryTemplateImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStorage2/users.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DbfeatJdbc/resources/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DbfeatJdbc/resources/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DbfeatJdbc/src/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/resources/app.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/ComponentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/MessageByeImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/MessageHelloImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/MessageRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DiInAction/src/ru/itis/MessageRendererPrefixImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/src/ru/itis/HashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/src/ru/itis/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Map/src/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/LoggerRepairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/Terminal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/TerminalLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/TerminalLoggerSystemErrIml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/best/TerminalLoggerSystemOutImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/notbest/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/notbest/LoggerRepairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/notbest/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/notbest/Terminal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/agregation/notbest/TerminalLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/inherritance/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/inherritance/LoggerRepairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/inherritance/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/inherritance/Terminal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/di/inherritance/TerminalLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/ob1/Main1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/ob1/Tokenizer1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/ob2/Main2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/ob2/Tokenizer2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/ob2/TokenizerALetterObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/AbstractObservable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/DigitsObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/LettersObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/Observable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/observer/obideal/Tokenizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/singleton/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patterns/src/ru/itis/singleton/Singleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/Info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/Cylinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/MainPrimitive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/MainWithAutowiredSpringContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/MainWithSimpleSpringContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/autowired/Motor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/java/annotation/config/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/java/annotation/config/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/java/annotation/config/Cylinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/java/annotation/config/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/java/ru/itis/java/annotation/config/Motor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/resources/ru.itis/auto_context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/resources/ru.itis/auto_context_autowired.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringDeep/src/main/resources/ru.itis/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/CustomMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/MessageByeImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/MessageHelloImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/MessageRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/java/ru/itis/MessageRendererPrefixImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringExample/src/main/resources/ru.itis/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/controllers/annotation/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/controllers/simple/AutosController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/controllers/simple/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/dao/AutoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/dao/impl/AutoDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/dao/impl/UsersDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/models/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/services/AutoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/services/AutoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/java/ru/itis/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/resources/ru.itis/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/webapp/views/ftl/usersView.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/webapp/views/jsp/autosView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample/src/main/webapp/views/jsp/usersView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/config/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/config/AppInit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/controllers/annotation/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/controllers/api/UsersJsonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/controllers/api/rest/UsersRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/controllers/simple/AutosController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/controllers/simple/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/converter/Converter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/AutoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/impl/AutoDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/impl/UsersDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dto/AutoDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dto/UserDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/filters/SimpleCORSFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/models/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/services/AutoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/services/AutoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/resources/ru.itis/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/resources/ru.itis/hibernate/Auto.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/resources/ru.itis/hibernate/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/webapp/views/ftl/usersView.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/webapp/views/jsp/autosView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpringMvcExample1/src/main/webapp/views/jsp/usersView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTask/src/ru/ivmiit/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThreadTask/src/ru/ivmiit/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/dao/UsersDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/java/ru/itis/servlets/UsersServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/resources/ru.itis.test.sql/group_user_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/resources/ru.itis.test.sql/group_user_schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/resources/ru.itis/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/resources/ru.itis/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/main/webapp/jsp/users.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample/src/test/java/ru/itis/dao/UsersDaoJdbcImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/config/app/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/config/app/AppListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/dao/AutoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/dao/UsersDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/dao/impl/AutoDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/dao/impl/UsersDaoJdbcImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/models/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/models/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/services/AutoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/services/AutoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/services/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/services/UsersServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/servlets/AutoServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/servlets/HelloServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/java/ru/itis/servlets/UsersServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/resources/ru.itis.test.sql/group_user_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/resources/ru.itis.test.sql/group_user_schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/resources/ru.itis/context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/resources/ru.itis/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/css/table-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/jsp/autoPost.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/jsp/autosAll.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/jsp/usersAll.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/main/webapp/jsp/usersPost.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/test/java/ru/itis/config/app/TestAppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebJdbcExample1/src/test/java/ru/itis/dao/UsersDaoJdbcImplTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/DataStorage.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/exceptions/UserNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/generators/IdGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/generators/SingletonIdGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/models/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/services/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/storages/DataStorageFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/storages/UsersDataStorage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/out/production/DataStorage/ru/itis/main/storages/UsersDataStorageTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/generators/SingletonIdGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/services/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/storages/DataStorageFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/storages/UsersDataStorage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/storages/UsersDataStorageTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoDataStorage/.idea/workspace.xml" afterPath="$PROJECT_DIR$/AutoDataStorage/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/.idea/misc.xml" afterPath="$PROJECT_DIR$/DataStorage/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/.idea/modules.xml" afterPath="$PROJECT_DIR$/DataStorage/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/.idea/workspace.xml" afterPath="$PROJECT_DIR$/DataStorage/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/id.txt" afterPath="$PROJECT_DIR$/DataStorage/id.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/resources/app.properties" afterPath="$PROJECT_DIR$/DataStorage/resources/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/Main.java" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/exceptions/UserNotFoundException.java" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/exceptions/UserNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/generators/IdGenerator.java" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/generators/IdGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/models/User.java" afterPath="$PROJECT_DIR$/DataStorage/src/ru/itis/main/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/test/id.txt" afterPath="$PROJECT_DIR$/DataStorage/test/id.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/test/users.txt" afterPath="$PROJECT_DIR$/DataStorage/test/users.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStorage/users.txt" afterPath="$PROJECT_DIR$/DataStorage/users.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/MessageDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/MessagesDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/EchoHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/resources/static/index-sockjs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/resources/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/clients/GreetClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramChatMultiServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramClientForEchoStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramClientStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramEchoServerStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramServerStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/ChatMultiServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/EchoServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/GreetServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/target/spring-mvc-exmaple-0.1.war" afterPath="$PROJECT_DIR$/SpringMvcExample1/target/spring-mvc-exmaple-0.1.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SpringMvcExample/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SpringMvcExample1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/SpringMvcExample1/target/maven-archiver/pom.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -294,7 +57,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThreadTask/src/ru/ivmiit/Main.java">
+        <entry file="file://$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -329,6 +92,7 @@
         <option value="$PROJECT_DIR$/DataStorage/src/ru/itis/main/Main.java" />
         <option value="$PROJECT_DIR$/path.java" />
         <option value="$PROJECT_DIR$/SpringMvcExample1/src/main/java/ru/itis/dao/impl/UsersDaoImpl.java" />
+        <option value="$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/Application.java" />
       </list>
     </option>
   </component>
@@ -359,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,15 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThreadTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru" />
+              <option name="myItemId" value="WebSockets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,7 +160,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThreadTask" />
+              <option name="myItemId" value="WebSockets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebSockets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleChatClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleChatClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,7 +270,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -431,7 +277,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThreadTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SimpleChatClient/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -448,6 +294,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Артур\Desktop\JAVA_ITIS_WORKS2" />
+      <recent name="C:\Users\Артур\Desktop\JAVA_ITIS_WORKS2.0" />
       <recent name="C:\Users\Артур\Desktop\JAVA_ITIS_WORKS2\Patterns\src\ru\itis" />
       <recent name="C:\Users\Артур\Desktop\JAVA_ITIS_WORKS2\Collections\src\ru\itis" />
     </key>
@@ -1020,11 +867,15 @@
       <workItem from="1496497304646" duration="90000" />
       <workItem from="1496497541936" duration="45000" />
       <workItem from="1496497676048" duration="148000" />
+      <workItem from="1497545774667" duration="41000" />
+      <workItem from="1497546278796" duration="59000" />
+      <workItem from="1499026578512" duration="341000" />
+      <workItem from="1499027423737" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85197000" />
+    <option name="totallyTimeSpent" value="85881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1037,6 +888,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="786" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1051,7 +903,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30746704" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3045388" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24884793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1126,27 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DiInAction/src/ru/itis/MessageByeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiInAction/src/ru/itis/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiInAction/src/ru/itis/ComponentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/AutoDaoFileBasedImpl.java" />
     <entry file="file://$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/BaseCrudDao.java" />
     <entry file="file://$PROJECT_DIR$/DataStorage/src/ru/itis/main/dao/UsersDao.java" />
@@ -1399,47 +1230,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_itis_works2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_itis_works2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_itis_works2_Fri_Apr_21_15-37-04_MSK_2017.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_itis_works2_Fri_Apr_21_15-37-04_MSK_2017.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java_itis_works2.properties" />
+    <entry file="file://$PROJECT_DIR$/java_itis_works2.xml" />
+    <entry file="file://$PROJECT_DIR$/java_itis_works2_Fri_Apr_21_15-37-04_MSK_2017.properties" />
+    <entry file="file://$PROJECT_DIR$/java_itis_works2_Fri_Apr_21_15-37-04_MSK_2017.xml" />
+    <entry file="file://$PROJECT_DIR$/path.java" />
     <entry file="file://$PROJECT_DIR$/ThreadTask/src/ru/ivmiit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/clients/GreetClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497545062873" expanded="false" signature="41:178" ph="..." />
+            <marker date="1497545062873" expanded="true" signature="447:973" ph="{...}" />
+            <marker date="1497545062873" expanded="false" signature="1014:1025" ph=" { " />
+            <marker date="1497545062873" expanded="false" signature="1042:1048" ph=" }" />
+            <marker date="1497545062873" expanded="true" signature="1109:1524" ph="{...}" />
+            <marker date="1497545062873" expanded="true" signature="1155:1518" ph="{...}" />
+            <marker date="1497545062873" expanded="true" signature="1559:1755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498823079097" expanded="false" signature="25:680" ph="..." />
+            <marker date="1498823079097" expanded="true" signature="682:738" ph="@{...}" />
+            <marker date="1498823079097" expanded="true" signature="945:1040" ph="{...}" />
+            <marker date="1498823079097" expanded="true" signature="1133:1222" ph="{...}" />
+            <marker date="1498823079097" expanded="false" signature="1284:1295" ph=" { " />
+            <marker date="1498823079097" expanded="false" signature="1320:1326" ph=" }" />
+            <marker date="1498823079097" expanded="false" signature="1370:1381" ph=" { " />
+            <marker date="1498823079097" expanded="false" signature="1428:1434" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

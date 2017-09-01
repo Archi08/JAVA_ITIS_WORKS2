@@ -1,0 +1,17 @@
+ru\itis\Main.class
+ru\itis\config\PersistenceConfig.class
+ru\itis\models\Actor$Builder.class
+ru\itis\services\AfishaService.class
+ru\itis\dao\FilmsDao.class
+ru\itis\filters\SimpleCORSFilter.class
+ru\itis\config\AppInit.class
+ru\itis\models\Actor.class
+ru\itis\dao\BaseDao.class
+ru\itis\models\Genre.class
+ru\itis\models\Genre$Builder.class
+ru\itis\controller\FilmsController.class
+ru\itis\dao\FilmsDaoHibernate.class
+ru\itis\config\AppConfig.class
+ru\itis\models\Film.class
+ru\itis\services\impl\AfishaServiceImpl.class
+ru\itis\models\Film$Builder.class

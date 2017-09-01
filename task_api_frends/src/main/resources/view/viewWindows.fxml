@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.itis.controllers.MainController">
+
+   <children>
+      <ListView fx:id="listView" layoutX="11.0" layoutY="39.0" prefHeight="374.0" prefWidth="239.0" />
+      <Text layoutX="27.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вывод друзей по id пользователя">
+         <font>
+            <Font name="Cambria Italic" size="20.0" />
+         </font>
+      </Text>
+
+      <Button fx:id="button" layoutX="258.0" layoutY="388.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Show" />
+
+      <TextField fx:id="textFieldForId" alignment="CENTER" layoutX="258.0" layoutY="39.0" prefHeight="25.0" prefWidth="97.0" promptText="your id">
+         <font>
+            <Font name="Cambria Italic" size="12.0" />
+         </font>
+      </TextField>
+
+      <TextField fx:id="textFieldForCount" alignment="CENTER" layoutX="258.0" layoutY="72.0" prefHeight="25.0" prefWidth="97.0" promptText="count " />
+
+
+   </children>
+</AnchorPane>

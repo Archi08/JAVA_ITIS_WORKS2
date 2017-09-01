@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ru.itis.models.Film" catalog="public" table="films">
+
+        <id name="id"  type="java.lang.Integer">
+           <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="name"/>
+        <property name="releaseDate" column="releasedate"/>
+        <property name="country"/>
+        <property name="producer"/>
+        <property name="lasting"/>
+        <property name="description"/>
+        <property name="picture"/>
+
+        <!--<bag name="actors" fetch="select">-->
+            <!--<key>-->
+                <!--<column name="id_film"/>-->
+            <!--</key>-->
+            <!--<one-to-many class="ru.itis.models.Actor"/>-->
+        <!--</bag>-->
+        <!--<bag name="genres" fetch="select">-->
+            <!--<key>-->
+                <!--<column name="id_film"/>-->
+            <!--</key>-->
+            <!--<one-to-many class="ru.itis.models.Genre"/>-->
+        <!--</bag>-->
+
+    </class>
+</hibernate-mapping>

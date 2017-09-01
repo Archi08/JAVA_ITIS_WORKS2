@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.itis.controllers.MainController">
+   <children>
+      <Button fx:id="button" layoutX="292.0" layoutY="92.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Получить" />
+      <Text layoutX="66.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Получить города по id страны" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ListView fx:id="text_list" layoutX="14.0" layoutY="57.0" prefHeight="444.0" prefWidth="266.0" />
+      <TextField fx:id="ins_id" layoutX="292.0" layoutY="57.0" prefHeight="18.0" prefWidth="88.0" />
+   </children>
+</AnchorPane>
