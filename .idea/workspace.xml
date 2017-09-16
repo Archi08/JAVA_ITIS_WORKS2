@@ -2,32 +2,287 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb9dc6f-5eac-4d4c-8dd0-09134c806a5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/MessageDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SimpleChatClient/src/main/java/ru/itis/MessagesDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/java/ru/itis/EchoHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/resources/static/index-sockjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSockets/src/main/resources/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/clients/GreetClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramChatMultiServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramClientForEchoStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramClientStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramEchoServerStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/programs/ProgramServerStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/ChatMultiServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/EchoServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javasocket/src/main/java/ru/itis/sockets/servers/GreetServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/target/spring-mvc-exmaple-0.1.war" afterPath="$PROJECT_DIR$/SpringMvcExample1/target/spring-mvc-exmaple-0.1.war" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Poster.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1/Hw0.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1/Hw1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_12/Hw12.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_13/Hw13.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_14/Hw14.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_15/Hw15.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_16/Hw16.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_17/Hw17.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_18/Hw18.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_19/Fibonachi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_2/Hw2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_20/Human.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_20/Program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_21/ArrayList/ArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_21/ArrayList/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_21/ArrayStack/ArrayStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_21/ArrayStack/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/Humans.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/LinkedList/LinkedStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/LinkedList/main_linkedStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/LinkedQueue/LinkedQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/LinkedQueue/mainQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_22/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_24/BucketSort/BucketSortMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_24/BucketSort/Human.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_24/BucketSort/LinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_24/BucketSort/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_25/Car.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_25/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_25/ParkingPlace.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_25/Transport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_26/Interface/Comparable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_26/MainMyString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_26/MyString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/ArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/UserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/UserDaoTextFileBaseImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/DAO/text.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/ArrayListMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Collections.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Comparators/HumanComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Comparators/TrianglePerimetrComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Interfaces/Comparable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Interfaces/Comparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Interfaces/Figure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/LinkedAndArrayList/ArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/LinkedAndArrayList/LinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/LinkedAndArrayList/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/LinkedListMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/MainJavaCore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Models/Humans.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Models/Students.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_28/JavaCore/Models/Triangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_3/Hw3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_4/Hw4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_5/Hw5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_6/Hw6.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_7/Hw7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_8/Hw8.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_9/Hw9.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/java/ru/itis/app/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/java/ru/itis/controllers/MainController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/java/ru/itis/models/CountriesResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/java/ru/itis/models/Country.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/resources/css/list-view-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api/src/main/resources/view/windowApplication.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/java/ru/itis/app/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/java/ru/itis/controllers/MainController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/java/ru/itis/models/Freand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/java/ru/itis/models/FreandsResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/java/ru/itis/treads/MyTread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/resources/css/list-view-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_api_frends/src/main/resources/view/viewWindows.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/artifacts/task_poster_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/artifacts/task_poster_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata.keystream" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata.keystream.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata.values.at" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata_i" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/_metadata_/metadata_i.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/dataSources/3a9ed47d-0439-4803-a1fc-cfc110a65d09/storage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__com_h2database_h2_1_4_195.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_orm_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/config/AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/config/AppInit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/config/PersistenceConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/controller/FilmsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/dao/BaseDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/dao/FilmsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/dao/FilmsDaoHibernate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/filters/SimpleCORSFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/models/Actor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/models/Film.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/models/Genre.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/services/AfishaService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/java/ru/itis/services/impl/AfishaServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/create_tables/actors_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/create_tables/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/create_tables/genre_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/tables_data/actors_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/tables_data/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/dev/tables_data/genres_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/test/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/poster/test/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/ru.itis/hbm/Actor.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/ru.itis/hbm/Film.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/ru.itis/hbm/Genre.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/resources/ru.itis/spring/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/webapp/WEB-INF/view/ftl/film.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/webapp/WEB-INF/view/ftl/filmsView.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/webapp/WEB-INF/view/jsp/filmsAdd.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/webapp/WEB-INF/view/jsp/filmsView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/src/main/webapp/css/table-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/create_tables/actors_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/create_tables/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/create_tables/genre_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/tables_data/actors_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/tables_data/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/dev/tables_data/genres_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/test/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/poster/test/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru.itis/hbm/Actor.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru.itis/hbm/Film.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru.itis/hbm/Genre.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru.itis/spring/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/config/AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/config/AppInit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/config/PersistenceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/controller/FilmsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/dao/FilmsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/dao/FilmsDaoHibernate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/filters/SimpleCORSFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Actor$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Actor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Film$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Film.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Genre$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/models/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/services/AfishaService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/classes/ru/itis/services/impl/AfishaServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/create_tables/actors_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/create_tables/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/create_tables/genre_chema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/tables_data/actors_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/tables_data/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/dev/tables_data/genres_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/test/films_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/poster/test/films_schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru.itis/hbm/Actor.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru.itis/hbm/Film.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru.itis/hbm/Genre.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru.itis/spring/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/config/AppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/config/AppInit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/config/PersistenceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/controller/FilmsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/dao/FilmsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/dao/FilmsDaoHibernate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/filters/SimpleCORSFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Actor$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Actor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Film$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Film.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Genre$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/models/Genre.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/services/AfishaService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/classes/ru/itis/services/impl/AfishaServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/cdi-api-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/el-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/h2-1.4.195.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/hibernate-core-5.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/hibernate-entitymanager-5.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jackson-core-2.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jackson-databind-2.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jsr250-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-orm-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/view/ftl/film.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/view/ftl/filmsView.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/view/jsp/filmsAdd.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/WEB-INF/view/jsp/filmsView.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/target/task_poster-0.1/css/table-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_poster/task_poster.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_threds/src/ru/itis/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task_threds/src/ru/itis/MyThreads.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Мои проблемы.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/задачи.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SpringMvcExample/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SpringMvcExample1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMvcExample1/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/SpringMvcExample1/target/maven-archiver/pom.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,7 +378,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,28 +526,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JAVA_ITIS_WORKS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SimpleChatClient/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -871,11 +1126,12 @@
       <workItem from="1497546278796" duration="59000" />
       <workItem from="1499026578512" duration="341000" />
       <workItem from="1499027423737" duration="243000" />
+      <workItem from="1504348899422" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85881000" />
+    <option name="totallyTimeSpent" value="86107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,7 +1144,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="786" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -903,7 +1158,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3045388" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30380672" sideWeight="0.49453977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24884793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1246,15 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1497545062873" expanded="false" signature="41:178" ph="..." />
-            <marker date="1497545062873" expanded="true" signature="447:973" ph="{...}" />
-            <marker date="1497545062873" expanded="false" signature="1014:1025" ph=" { " />
-            <marker date="1497545062873" expanded="false" signature="1042:1048" ph=" }" />
-            <marker date="1497545062873" expanded="true" signature="1109:1524" ph="{...}" />
-            <marker date="1497545062873" expanded="true" signature="1155:1518" ph="{...}" />
-            <marker date="1497545062873" expanded="true" signature="1559:1755" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,16 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498823079097" expanded="false" signature="25:680" ph="..." />
-            <marker date="1498823079097" expanded="true" signature="682:738" ph="@{...}" />
-            <marker date="1498823079097" expanded="true" signature="945:1040" ph="{...}" />
-            <marker date="1498823079097" expanded="true" signature="1133:1222" ph="{...}" />
-            <marker date="1498823079097" expanded="false" signature="1284:1295" ph=" { " />
-            <marker date="1498823079097" expanded="false" signature="1320:1326" ph=" }" />
-            <marker date="1498823079097" expanded="false" signature="1370:1381" ph=" { " />
-            <marker date="1498823079097" expanded="false" signature="1428:1434" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
