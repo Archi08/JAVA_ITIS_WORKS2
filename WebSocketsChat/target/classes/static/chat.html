@@ -1,0 +1,37 @@
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script language="javascript" type="text/javascript"
+            src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script language="javascript" type="text/javascript" src="js/chat.js">
+
+    </script>
+</head>
+<body>
+<div class="chat_container">
+    <div class="form">
+        <button id="connect" onclick="doConnect()">Войти в чат</button>
+        <button id="disconnect" onclick="disconnect()">Выйти из чата</button>
+        <br/>
+        <input type="text" id="message" placeholder="| message"/>
+        <button id="send" onclick="sendMessage(
+              window.location.search.search('id'),
+            document.getElementById('message')
+        )">Отправить</button>
+        <br/>
+
+        <textarea id="statusOutput" rows="lO" cols="SO" placeholder="| Статус подключения"></textarea>
+        <p>Чат</p>
+        <textarea id="messageOutput" rows="lO" cols="SO" ></textarea>
+        <button onclick="window.location = 'http://localhost:8080/chat_list.html';"
+        >Выбрать Чат
+        </button>
+
+    </div>
+</div>
+
+</body>
+</html>
+

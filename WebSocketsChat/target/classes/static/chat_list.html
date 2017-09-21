@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Чат - авторизация</title>
+    <script language="javascript" type="text/javascript"
+            src="http://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+    <script language="javascript" type="text/javascript"
+            src="js/chats_list.js">
+    </script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="getChats()">
+
+<div class="chat_container">
+    <div class="form">
+        <button onclick="window.location = 'http://localhost:8080/add_chat.html';"
+        >Создать Чат
+        </button>
+        <table id="chats_table">
+            <th>Название</th>
+            <th>Создатель</th>
+        </table>
+    </div>
+</div>

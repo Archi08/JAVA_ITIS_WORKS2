@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="itis@localhost" uuid="28ce6b3c-25d7-4d0c-abdb-1edd168a46be">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>itis:public</introspection-schemas>
+    </data-source>
+    <data-source name="mem:testdb" uuid="12d0edd7-a03e-4203-aef3-f962999e71d3">
+      <database-info product="H2" version="1.4.192 (2016-05-26)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.192 (2016-05-26)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-schemas>TESTDB:*</introspection-schemas>
+    </data-source>
+  </component>
+</project>
