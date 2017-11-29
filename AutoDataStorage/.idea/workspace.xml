@@ -12,121 +12,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarDataStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#CarDataStorage#0;class#CarDataStorage#0" expanded="false" />
-                <element signature="method#find#0;class#CarDataStorage#0" expanded="false" />
-                <element signature="method#findAll#0;class#CarDataStorage#0" expanded="false" />
-                <element signature="method#delete#0;class#CarDataStorage#0" expanded="false" />
-                <element signature="method#flushFromBuffer#0;class#CarDataStorage#0" expanded="false" />
-                <element signature="method#update#0;class#CarDataStorage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="app.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/app.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="20">
               <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonIdGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generators/SingletonIdGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarDataStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="car.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/car.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cars.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cars.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Auto/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-              <folding>
-                <element signature="method#Car#0;class#Car#0" expanded="false" />
-                <element signature="method#Car#1;class#Car#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStorageFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/storages/DataStorageFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,8 +71,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -198,6 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,19 +127,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auto" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +143,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NOT_MINE/JavaItis5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
@@ -774,6 +661,7 @@
       <workItem from="1492682659647" duration="567000" />
       <workItem from="1492683323690" duration="70000" />
       <workItem from="1492702325093" duration="496000" />
+      <workItem from="1511186754701" duration="426000" />
     </task>
     <servers />
   </component>
@@ -810,40 +698,45 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36246000" />
+    <option name="totallyTimeSpent" value="36672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20882353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -895,13 +788,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/car.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -932,7 +818,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492626387906" expanded="true" signature="26:119" ph="..." />
+            <marker date="1492626387906" expanded="true" signature="254:381" ph="{...}" />
+            <marker date="1492626387906" expanded="true" signature="261:375" ph="//..." />
+            <marker date="1492626387906" expanded="true" signature="437:588" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -941,8 +832,26 @@
         <state relative-caret-position="693">
           <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
-            <element signature="method#Car#0;class#Car#0" expanded="false" />
-            <element signature="method#Car#1;class#Car#0" expanded="false" />
+            <marker date="1492534036949" expanded="false" signature="200:318" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="377:473" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="497:508" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="518:524" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="553:564" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="579:585" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="615:626" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="675:686" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="699:705" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="736:747" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="760:766" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="806:817" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="836:842" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="959:970" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="993:999" ph=" }" />
+            <marker date="1492534036949" expanded="true" signature="1030:1164" ph="{...}" />
+            <marker date="1492534036949" expanded="true" signature="1207:1510" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -953,13 +862,14 @@
         <state relative-caret-position="1869">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CarDataStorage#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#find#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#findAll#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#delete#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#flushFromBuffer#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#update#0;class#CarDataStorage#0" expanded="false" />
+            <marker date="1492626387875" expanded="true" signature="27:187" ph="..." />
+            <marker date="1492626387875" expanded="false" signature="294:336" ph="{...}" />
+            <marker date="1492626387875" expanded="true" signature="367:960" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="990:2109" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="2142:3220" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3254:3678" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3731:4133" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="4168:4536" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1015,8 +925,26 @@
         <state relative-caret-position="693">
           <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
-            <element signature="method#Car#0;class#Car#0" expanded="false" />
-            <element signature="method#Car#1;class#Car#0" expanded="false" />
+            <marker date="1492534036949" expanded="false" signature="200:318" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="377:473" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="497:508" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="518:524" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="553:564" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="579:585" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="615:626" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="675:686" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="699:705" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="736:747" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="760:766" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="806:817" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="836:842" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="959:970" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="993:999" ph=" }" />
+            <marker date="1492534036949" expanded="true" signature="1030:1164" ph="{...}" />
+            <marker date="1492534036949" expanded="true" signature="1207:1510" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1027,13 +955,14 @@
         <state relative-caret-position="1869">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CarDataStorage#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#find#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#findAll#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#delete#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#flushFromBuffer#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#update#0;class#CarDataStorage#0" expanded="false" />
+            <marker date="1492626387875" expanded="true" signature="27:187" ph="..." />
+            <marker date="1492626387875" expanded="false" signature="294:336" ph="{...}" />
+            <marker date="1492626387875" expanded="true" signature="367:960" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="990:2109" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="2142:3220" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3254:3678" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3731:4133" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="4168:4536" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1089,8 +1018,26 @@
         <state relative-caret-position="693">
           <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
-            <element signature="method#Car#0;class#Car#0" expanded="false" />
-            <element signature="method#Car#1;class#Car#0" expanded="false" />
+            <marker date="1492534036949" expanded="false" signature="200:318" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="377:473" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="497:508" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="518:524" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="553:564" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="579:585" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="615:626" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="675:686" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="699:705" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="736:747" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="760:766" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="806:817" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="836:842" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="959:970" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="993:999" ph=" }" />
+            <marker date="1492534036949" expanded="true" signature="1030:1164" ph="{...}" />
+            <marker date="1492534036949" expanded="true" signature="1207:1510" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1101,13 +1048,14 @@
         <state relative-caret-position="1869">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CarDataStorage#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#find#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#findAll#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#delete#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#flushFromBuffer#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#update#0;class#CarDataStorage#0" expanded="false" />
+            <marker date="1492626387875" expanded="true" signature="27:187" ph="..." />
+            <marker date="1492626387875" expanded="false" signature="294:336" ph="{...}" />
+            <marker date="1492626387875" expanded="true" signature="367:960" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="990:2109" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="2142:3220" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3254:3678" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3731:4133" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="4168:4536" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1210,22 +1158,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generators/IdGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/id.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generators/SingletonIdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1238,36 +1170,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/storages/DataStorageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CarDataStorage#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#find#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#findAll#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#delete#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#flushFromBuffer#0;class#CarDataStorage#0" expanded="false" />
-            <element signature="method#update#0;class#CarDataStorage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1290,22 +1198,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Auto/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <marker date="1492534036949" expanded="false" signature="200:318" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="377:473" ph="{...}" />
+            <marker date="1492534036949" expanded="false" signature="497:508" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="518:524" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="553:564" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="579:585" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="615:626" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="675:686" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="699:705" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="736:747" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="760:766" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="806:817" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="836:842" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1492534036949" expanded="false" signature="959:970" ph=" { " />
+            <marker date="1492534036949" expanded="false" signature="993:999" ph=" }" />
+            <marker date="1492534036949" expanded="true" signature="1030:1164" ph="{...}" />
+            <marker date="1492534036949" expanded="true" signature="1207:1510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <marker date="1492626387875" expanded="true" signature="27:187" ph="..." />
+            <marker date="1492626387875" expanded="false" signature="294:336" ph="{...}" />
+            <marker date="1492626387875" expanded="true" signature="367:960" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="990:2109" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="2142:3220" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3254:3678" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="3731:4133" ph="{...}" />
+            <marker date="1492626387875" expanded="false" signature="4168:4536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storages/CarDataStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1492626387906" expanded="true" signature="26:119" ph="..." />
+            <marker date="1492626387906" expanded="true" signature="254:381" ph="{...}" />
+            <marker date="1492626387906" expanded="true" signature="261:375" ph="//..." />
+            <marker date="1492626387906" expanded="true" signature="437:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoDataStorage.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cars.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="60">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Auto/Car.java">
+    <entry file="file://$PROJECT_DIR$/id.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="method#Car#0;class#Car#0" expanded="false" />
-            <element signature="method#Car#1;class#Car#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
